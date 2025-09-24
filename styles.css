@@ -50,12 +50,13 @@ ul li{
     padding: 12px 8px 12px 50px;
     cursor: pointer;
     user-select: none;
+    position: relative;
 }
 
 
 ul li span{
     position: absolute;
-    margin-left: 20%;
+    right: 20px;
     width: 40px;
     height: 40px;
     font-size: 22px;
@@ -66,4 +67,5 @@ ul li span{
 ul li span:hover{
     background-color: #b1b0b0;
 }
+
 
