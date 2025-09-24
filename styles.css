@@ -47,7 +47,7 @@ ul li{
     color: black;
     list-style: none;
     font-size: 17px;
-    padding: 12px 8px 12px 50px;
+    padding: 12px 8px 12px 5px;
     cursor: pointer;
     user-select: none;
     position: relative;
@@ -67,5 +67,6 @@ ul li span{
 ul li span:hover{
     background-color: #b1b0b0;
 }
+
 
 
