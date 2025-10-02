@@ -22,7 +22,6 @@
 It is designed to be clean, intuitive, and responsive.
 
 - Add new tasks  
-- Mark tasks as completed  
 - Delete tasks  
 - Keep tasks saved locally in the browser  
 
