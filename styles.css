@@ -74,7 +74,11 @@ ul li span:hover{
       width: 90%;
       max-width: 200px;
   }
+    button{
+        padding: 9px 10px;
+    }
 }
+
 
 
 
