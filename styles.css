@@ -1,85 +1,105 @@
-body{
+body {
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
     background-color: rgb(175, 80, 192);
+    margin: 0; 
+    padding: 0;
 }
-.todo-app{
+
+.todo-app {
     width: 100%;
     max-width: 400px;
     background-color: aliceblue;
-    margin: 100px auto 20px;
-    padding: 10px 20px 50px;
-    border-radius: 30px;
+    margin: 50px auto 20px; 
+    padding: 15px 20px 30px;
+    border-radius: 20px;
 }
 
-.todo-app h2{
-    font-size: 160%;
+.todo-app h2 {
+    font-size: 1.5rem;
+    text-align: center;
 }
 
-.row{
+.row {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: rgba(236, 236, 236, 0.933);
     border-radius: 40px;
+    padding: 5px;
 }
 
-input{
+input {
     flex: 1;
     outline: none;
     border: none;
     background-color: transparent;
-    padding: 7px;
-    
+    padding: 10px;
+    font-size: 1rem;
 }
 
-button{
+button {
     outline: none;
     border: none;
-    padding: 12px 13px;
+    padding: 10px 15px;
     color: white;
     border-radius: 15px;
     cursor: pointer;
     background-color: rgb(44, 32, 173);
+    font-size: 0.9rem;
 }
 
-ul li{
+
+ul li {
     color: black;
     list-style: none;
-    font-size: 17px;
+    font-size: 1rem;
     padding: 12px 8px 12px 5px;
     cursor: pointer;
     user-select: none;
     position: relative;
+    word-wrap: break-word; 
 }
 
-
-ul li span{
+ul li span {
     position: absolute;
-    right: 20px;
-    width: 40px;
-    height: 40px;
-    font-size: 22px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
     color: #404040;
     text-align: center;
-    line-height: 40px;
+    line-height: 30px;
+    border-radius: 50%;
 }
-ul li span:hover{
+
+ul li span:hover {
     background-color: #b1b0b0;
 }
 
 
 @media (max-width: 768px) {
-  .todo-app{
-      width: 90%;
-      max-width: 200px;
-  }
-    button{
-        padding: 9px 10px;
+    .todo-app {
+        width: 90%;   
+        max-width: none;  
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .todo-app h2 {
+        font-size: 1.2rem;
+    }
+
+    input {
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+
+    ul li {
+        font-size: 0.9rem;
     }
 }
-
-
-
-
-
